@@ -33,13 +33,13 @@ O projeto consiste na integração de três disciplinas para desenvolver um sist
 3. **O sistema web (PHP) consome os endpoints da API**, exibe as informações e permite a interação do usuário.
 
 ## 4. Tecnologias Utilizadas
-| Componente | Tecnologia |
-|------------|------------|
-| API | NodeJS + Express.js |
-| Banco de Dados | MySQL/PostgreSQL |
-| Gerador de Dados | Java + JDBC |
-| Frontend/Backend Web | PHP + HTML/CSS/JS |
-| Autenticação | JWT |
+| **Componente**       | **Tecnologia**      |
+|----------------------|---------------------|
+| API                  | NodeJS + Express.js |
+| Banco de Dados       | MySQL/PostgreSQL    |
+| Gerador de Dados     | Java + JDBC         |
+| Frontend/Backend Web | PHP + HTML/CSS/JS   |
+| Autenticação         | JWT                 |
 
 ## 5. Benefícios da Integração
 - Aplicação prática dos conteúdos vistos em cada disciplina
