@@ -1,4 +1,4 @@
-Esboço projeto integrado: # Esquema de Integração de Disciplinas
+# Esquema de Integração de Disciplinas
 
 ## 1. Visão Geral do Projeto
 O projeto consiste na integração de três disciplinas para desenvolver um sistema completo utilizando diferentes tecnologias e paradigmas. O sistema será composto por:
