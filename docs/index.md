@@ -47,5 +47,3 @@ O projeto consiste na integração de três disciplinas para desenvolver um sist
 - Aprendizado sobre integração de tecnologias
 - Desenvolvimento de um sistema realista e funcional
 
----
-Este esquema proporciona uma visão clara de como as disciplinas se interligam para criar um projeto completo e funcional.
