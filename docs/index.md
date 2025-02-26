@@ -4,7 +4,7 @@
 O projeto consiste na integração de três disciplinas para desenvolver um sistema completo utilizando diferentes tecnologias e paradigmas. O sistema será composto por:
 - **Uma API desenvolvida em NodeJS** (Disciplina: Tópicos Especiais), responsável pela lógica de negócio e comunicação com o banco de dados.
 - **Um gerador de dados em Java** (Disciplina: Desenvolvimento de Software), que simula informações e as insere no banco de dados da API.
-- **Um sistema web em PHP** (Disciplina: [Desenvolvimento de Sistemas](./Des_Sistemas.md), que fornece a interface para os usuários e consome os serviços da API.
+- **Um sistema web em PHP** (Disciplina: [Desenvolvimento de Sistemas](./Des_Sistemas_PHP.md), que fornece a interface para os usuários e consome os serviços da API.
 
 ## 2. Estrutura do Projeto
 ### a) API NodeJS (Tópicos Especiais)
