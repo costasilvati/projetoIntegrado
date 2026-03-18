@@ -1,49 +1,227 @@
-# Esquema de Integração de Disciplinas
+# PROJETO INTEGRADO DE DISCIPLINAS
 
-## 1. Visão Geral do Projeto
-O projeto consiste na integração de três disciplinas para desenvolver um sistema completo utilizando diferentes tecnologias e paradigmas. O sistema será composto por:
-- **Uma API desenvolvida em NodeJS** (Disciplina: Tópicos Especiais), responsável pela lógica de negócio e comunicação com o banco de dados.
-- **Um gerador de dados em Java** (Disciplina: Desenvolvimento de Software), que simula informações e as insere no banco de dados da API.
-- **Um sistema web em PHP** (Disciplina: [Desenvolvimento de Sistemas](./Des_Sistemas_PHP.md), que fornece a interface para os usuários e consome os serviços da API.
+Curso Superior de Bacharelado em Engenharia de Software
 
-## 2. Estrutura do Projeto
-### a) API NodeJS (Tópicos Especiais)
-- Desenvolvida utilizando **Express.js**
-- Gerencia **CRUD** de dados
-- Autenticação utilizando **JWT**
-- Conexão com **Banco de Dados MySQL/PostgreSQL**
-- Exposição de endpoints RESTful
+Período: 2026-1
 
-### b) Gerador de Dados em Java (Desenvolvimento de Software)
-- Aplicação console para gerar registros aleatórios
-- Utiliza **Java + JDBC** para inserir dados no banco da API
-- Implementação de **POO (Programação Orientada a Objetos)**
-- Possível uso de bibliotecas como **Faker** para geração de dados fictícios
+Disciplinas envolvidas:
 
-### c) Sistema Web em PHP (Desenvolvimento de Sistemas)
-- Desenvolvido utilizando **PHP + HTML/CSS/JavaScript**
-- Consumo da API via **cURL ou bibliotecas HTTP (ex: Guzzle)**
-- Sistema de login e autenticação via JWT
-- Renderização dinâmica de dados vindos da API
-- Interface responsiva utilizando **Bootstrap** ou outra biblioteca CSS
+-   Desenvolvimento Web Avançado\
+-   Viabilidade de Software\
+-   Gestão de Projeto de Software\
+-   Modelos de Processo de Software
 
-## 3. Fluxo de Funcionamento
-1. **A API (NodeJS) é desenvolvida** para gerenciar os dados e fornecer endpoints REST.
-2. **O gerador de dados (Java) cria dados fictícios** e insere no banco de dados da API.
-3. **O sistema web (PHP) consome os endpoints da API**, exibe as informações e permite a interação do usuário.
+------------------------------------------------------------------------
 
-## 4. Tecnologias Utilizadas
-| **Componente**       | **Tecnologia**      |
-|----------------------|---------------------|
-| API                  | NodeJS + Express.js |
-| Banco de Dados       | MySQL/PostgreSQL    |
-| Gerador de Dados     | Java + JDBC         |
-| Frontend/Backend Web | PHP + HTML/CSS/JS   |
-| Autenticação         | JWT                 |
+```         
+# Objetivos
 
-## 5. Benefícios da Integração
-- Aplicação prática dos conteúdos vistos em cada disciplina
-- Trabalho colaborativo entre os alunos
-- Aprendizado sobre integração de tecnologias
-- Desenvolvimento de um sistema realista e funcional
+Este projeto tem como objetivo integrar conhecimentos técnicos e gerenciais no desenvolvimento de uma solução de software completa, contemplando desde a concepção da ideia até a entrega de um sistema funcional.
+```
 
+Os alunos deverão desenvolver uma aplicação web baseada em **API REST com Node.js**, incluindo autenticação de usuários e persistência em banco de dados, aplicando práticas de engenharia de software, análise de viabilidade e gestão de projetos.
+
+Cada aluno será responsável pela implementação de **um CRUD completo (backend)**, integrando-o ao sistema geral desenvolvido pela equipe.
+
+------------------------------------------------------------------------
+
+# Regras Gerais
+
+```         
+As atividades deverão ser apresentadas conforme cronograma. A simples entrega no AVA não garante nota, sendo obrigatória a apresentação.
+```
+
+As equipes devem ser compostas por até 3 alunos.
+
+Cada equipe deverá:
+
+-   manter repositório público no GitHub\
+-   registrar as atividades realizadas por cada integrante\
+-   documentar o uso de ferramentas de apoio (incluindo IA, quando utilizada)\
+-   garantir que cada integrante seja responsável por um CRUD completo
+
+O sistema desenvolvido deve ser uma aplicação funcional, não sendo aceitos CRUDs isolados.
+
+A API deverá:
+
+-   seguir padrão REST\
+-   possuir autenticação (ex: JWT)\
+-   estar integrada a um banco de dados\
+-   possuir organização em camadas (controller, service, repository ou similar)
+
+------------------------------------------------------------------------
+
+# Estrutura do Projeto
+
+O projeto será desenvolvido em etapas, com entregas a cada duas semanas.
+
+------------------------------------------------------------------------
+
+# ATIVIDADE 1 — Definição do Projeto e Viabilidade
+
+Nesta etapa, a equipe deverá propor um sistema a ser desenvolvido.
+
+O documento deve conter:
+
+-   descrição do problema a ser resolvido\
+-   público-alvo\
+-   justificativa do projeto\
+-   análise de viabilidade:
+    -   técnica\
+-   econômica\
+-   operacional\
+-   definição inicial do escopo
+
+## Atividades relacionadas:
+
+-   levantamento de necessidades\
+-   definição da proposta de valor\
+-   identificação de riscos iniciais\
+    
+    [Template Entrega 1](entrega1.md)
+
+------------------------------------------------------------------------
+
+# ATIVIDADE 2 — Modelos de Processo e Planejamento
+
+A equipe deverá definir como o projeto será conduzido.
+
+O documento deve conter:
+
+```         
+- escolha do modelo de processo (ex: Scrum, Kanban, híbrido)  
+```
+
+-   justificativa da escolha\
+-   definição das etapas do projeto\
+-   cronograma macro\
+-   definição de papéis da equipe\
+-   backlog inicial do sistema
+
+## Atividades relacionadas:
+
+-   criação de backlog de funcionalidades\
+-   definição de sprints ou ciclos de entrega\
+-   planejamento inicial do projeto
+
+[Template Entrega 2](entrega2.md)
+------------------------------------------------------------------------
+
+# ATIVIDADE 3 — Requisitos e Modelagem
+
+```         
+A equipe deverá realizar o levantamento e modelagem do sistema.
+```
+
+O documento deve conter:
+
+-   requisitos funcionais\
+-   requisitos não funcionais\
+-   casos de uso\
+-   diagrama de entidades (DER)\
+-   definição das entidades do sistema
+
+## Atividades relacionadas:
+
+-   identificação de regras de negócio\
+-   modelagem de dados\
+-   validação dos requisitos
+
+[Template Entrega 3](entrega3.md)
+------------------------------------------------------------------------
+
+# ATIVIDADE 4 — Arquitetura e Projeto do Sistema
+
+A equipe deverá definir a arquitetura da solução.
+
+O documento deve conter:
+
+```         
+- arquitetura da aplicação (ex: MVC, camadas, REST)  
+```
+
+-   definição da estrutura da API\
+-   definição dos endpoints\
+-   protótipos de telas (mockups, se houver front)\
+-   diagrama de classes
+
+## Atividades relacionadas:
+
+-   definição da estrutura do backend em Node.js\
+-   organização de pastas e módulos\
+-   definição da estratégia de autenticação
+
+[Template Entrega 4](entrega4.md)
+------------------------------------------------------------------------
+
+# ATIVIDADE 5 — Implementação do Sistema
+
+Nesta etapa será desenvolvido o sistema funcional.
+
+Requisitos obrigatórios:
+
+-   API REST em Node.js\
+-   autenticação de usuários\
+-   conexão com banco de dados\
+-   implementação de pelo menos 4 CRUDs (um por aluno)\
+-   organização em camadas\
+-   tratamento de erros
+
+## Atividades relacionadas:
+
+-   implementação incremental\
+-   integração entre módulos\
+-   testes básicos
+
+Observação:
+
+A implementação deverá ocorrer ao longo de pelo menos **3 semanas**, com acompanhamento contínuo.
+
+[Template Entrega 5](entrega5.md)
+------------------------------------------------------------------------
+
+# ATIVIDADE 6 — Entrega Final e Apresentação
+
+A equipe deverá apresentar o sistema completo.
+
+A entrega deve conter:
+
+-   sistema funcional\
+-   repositório no GitHub\
+-   documentação básica de uso\
+-   demonstração das funcionalidades\
+-   explicação da arquitetura\
+-   apresentação da gestão do projeto
+
+Além disso:
+
+-   cada integrante deverá apresentar o CRUD pelo qual foi responsável\
+-   deverá ser apresentada uma reflexão sobre o projeto:
+-   desafios enfrentados\
+-   decisões tomadas\
+-   melhorias futuras
+
+[Template Entrega 6](entrega6.md)
+------------------------------------------------------------------------
+
+# Cronograma de Entregas
+
+```         
+| Atividade | Data |
+|----------|------|
+| Atividade 1 — Definição e Viabilidade | 31/03 |
+| Atividade 2 — Processo e Planejamento | 14/04 |
+| Atividade 3 — Requisitos e Modelagem | 28/04 |
+| Atividade 4 — Arquitetura | 12/05 |
+| Atividade 5 — Implementação (parcial) | 02/06 |
+| Atividade 5 — Implementação (final) | 16/06 |
+| Atividade 6 — Entrega Final e Apresentação | 20/06 |
+```
+
+------------------------------------------------------------------------
+
+# Considerações Finais
+
+Este projeto tem caráter integrador e prático, exigindo dos alunos não apenas habilidades técnicas, mas também competências relacionadas à organização, planejamento e tomada de decisão.
+
+O desenvolvimento deverá refletir boas práticas de engenharia de software, com foco na construção de soluções reais, estruturadas e evolutivas.
