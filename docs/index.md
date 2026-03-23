@@ -92,11 +92,21 @@ O documento deve conter:
 - escolha do modelo de processo (ex: Scrum, Kanban, híbrido)  
 ```
 
--   justificativa da escolha\
--   definição das etapas do projeto\
--   cronograma macro\
--   definição de papéis da equipe\
--   backlog inicial do sistema
+- Escolha do modelo de processo
+  (ex: Cascata, Prototipação, Incremental, RUP, Scrum, Kanban ou híbrido)
+
+- Classificação do modelo escolhido
+  (Prescritivo, Iterativo/Incremental ou Ágil)
+
+- Justificativa da escolha (técnica e estratégica)
+
+- Definição das etapas do projeto
+
+- Cronograma macro (fases ou sprints)
+
+- Definição de papéis da equipe
+
+- Backlog inicial do sistema
 
 ## Atividades relacionadas:
 
@@ -105,6 +115,18 @@ O documento deve conter:
 -   planejamento inicial do projeto
 
 [Template Entrega 2](entrega2.md)
+
+## Orientação Importante (didática)
+
+💬 Você pode orientar os alunos assim:
+
+Não basta escolher um modelo.
+É necessário justificar considerando:
+
+-   tipo de sistema
+-   riscos do projeto
+-   estabilidade dos requisitos
+-   nível de criticidade
 ------------------------------------------------------------------------
 
 # ATIVIDADE 3 — Requisitos e Modelagem
