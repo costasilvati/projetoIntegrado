@@ -87,10 +87,8 @@ O documento deve conter:
 A equipe deverá definir como o projeto será conduzido.
 
 O documento deve conter:
-
-```         
+      
 - escolha do modelo de processo (ex: Scrum, Kanban, híbrido)  
-```
 
 - Escolha do modelo de processo
   (ex: Cascata, Prototipação, Incremental, RUP, Scrum, Kanban ou híbrido)
@@ -117,8 +115,6 @@ O documento deve conter:
 [Template Entrega 2](entrega2.md)
 
 ## Orientação Importante (didática)
-
-💬 Você pode orientar os alunos assim:
 
 Não basta escolher um modelo.
 É necessário justificar considerando:
