@@ -7,7 +7,7 @@ Período: 2026-1
 Disciplinas envolvidas:
 
 -   Desenvolvimento Web Avançado\
--   Viabilidade de Software\
+-   Tecnologia e Sociedade I\
 -   Gestão de Projeto de Software\
 -   Modelos de Processo de Software
 
@@ -181,19 +181,19 @@ Requisitos obrigatórios:
 -   API REST em Node.js\
 -   autenticação de usuários\
 -   conexão com banco de dados\
--   implementação de pelo menos 4 CRUDs (um por aluno)\
+-   implementação de pelo menos 4 CRUDs (um CRUD por aluno)\
 -   organização em camadas\
 -   tratamento de erros
 
 ## Atividades relacionadas:
 
--   implementação incremental\
--   integração entre módulos\
--   testes básicos
+-   implementação incremental: Códigos desenvolvidos totalmente em uma semana serão penalizados, a cadência no desenvolvimento é parte essencial da atividade;
+-   integração entre módulos: Os CRUDs devem ser integrados, um cadastro afeta e/ou usa outros;
+-   testes básicos: Descrever e registrar quais testes foram realizados e seus resultados. 
 
 Observação:
 
-A implementação deverá ocorrer ao longo de pelo menos **3 semanas**, com acompanhamento contínuo.
+A implementação deverá ocorrer ao longo de pelo menos **3 semanas**, com acompanhamento contínuo. O github será a ferramenta utilizada para avaliação individual, será observada a frequência de codoficação do aluno, e itens em que ele participou, por isso cada aluno deve fazer commit de suas alterações.
 
 [Template Entrega 5](entrega5.md)
 ------------------------------------------------------------------------
