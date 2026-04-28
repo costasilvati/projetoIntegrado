@@ -47,8 +47,8 @@ Liste o JSON de cada funcionalidades:
 
 | ID | Funcionalidade | rota | padrão JSON |
 |----|--------------|-----------|--------------|
-| 1  |              |           |
-| 2  |              |           |
+| 1  |              |           |              |
+| 2  |              |           |              |
 
 
 ---

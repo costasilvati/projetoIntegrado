@@ -229,9 +229,9 @@ Além disso:
 | Atividade | Data |
 |----------|------|
 | Atividade 1 — Definição e Viabilidade | 31/03 |
-| Atividade 2 — Processo e Planejamento | 14/04 |
-| Atividade 3 — Requisitos e Modelagem | 28/04 |
-| Atividade 4 — Arquitetura | 12/05 |
+| Atividade 2 — Processo e Planejamento | 05/05 |
+| Atividade 3 — Requisitos e Modelagem | 12/05 |
+| Atividade 4 — Arquitetura | 19/05 |
 | Atividade 5 — Implementação (parcial) | 02/06 |
 | Atividade 5 — Implementação (final) | 16/06 |
 | Atividade 6 — Entrega Final e Apresentação | 20/06 |
