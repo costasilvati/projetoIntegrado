@@ -41,6 +41,17 @@ Liste as funcionalidades:
 | 2  |              |           |
 
 ---
+## JSON e rotas
+
+Liste o JSON de cada funcionalidades:
+
+| ID | Funcionalidade | rota | padrão JSON |
+|----|--------------|-----------|--------------|
+| 1  |              |           |
+| 2  |              |           |
+
+
+---
 
 ## Cronograma
 

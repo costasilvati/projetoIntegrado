@@ -111,6 +111,7 @@ O documento deve conter:
 -   criação de backlog de funcionalidades\
 -   definição de sprints ou ciclos de entrega\
 -   planejamento inicial do projeto
+-   JSON de cada funcionalidade e definição de rotas
 
 [Template Entrega 2](entrega2.md)
 
