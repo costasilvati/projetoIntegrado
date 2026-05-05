@@ -225,7 +225,7 @@ Além disso:
 
 # Cronograma de Entregas
 
-```         
+       
 | Atividade | Data |
 |----------|------|
 | Atividade 1 — Definição e Viabilidade | 31/03 |
@@ -235,7 +235,7 @@ Além disso:
 | Atividade 5 — Implementação (parcial) | 02/06 |
 | Atividade 5 — Implementação (final) | 16/06 |
 | Atividade 6 — Entrega Final e Apresentação | 20/06 |
-```
+
 
 ------------------------------------------------------------------------
 
